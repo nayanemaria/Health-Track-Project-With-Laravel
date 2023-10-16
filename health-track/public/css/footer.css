@@ -1,0 +1,80 @@
+.footer-section {
+    background: #151414;
+    display: table-footer-group;
+}
+.footer-content {
+    position: relative;
+    z-index: 2;
+}
+.footer-section h1 {
+    font-size: 30px;
+}
+.footer-section h1,
+.footer-section h3 {
+    color: #fff;
+}
+.footer-section p {
+    color: #aaa;
+}
+.footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+.footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: #3084F2;
+}
+.subscribe-form {
+    position: relative;
+    overflow: hidden;
+}
+.subscribe-form input {
+    width: 100%;
+    padding: 11px 20px;
+    background: #2e2e2e;
+    border: 1px solid #2e2e2e;
+    border-radius: 15px;
+    color: #fff;
+    outline: none;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #3084F2;
+    padding: 10px 20px;
+    border: 1px solid #3084F2;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    top: 0;
+}
+.subscribe-form button i {
+    color: #fff;
+    font-size: 22px;
+}
+.copyright-area {
+    background: #202020;
+}
+.copyright-text p {
+    text-align: center;
+    font-size: 14px;
+    color: #878787;
+}
+.footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-menu li:hover a {
+    color: #3084F2;
+}
+.footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+}

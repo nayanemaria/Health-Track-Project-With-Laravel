@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: table;
+}
+h1,
+h1,
+h3,
+h4,
+h5,
+p,
+a,
+label {
+    color: #424242;
+}
+a {
+    text-decoration: none;
+}
+.navbar {
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.navbar-title {
+    color: #424242;
+}
+.btn.more {
+    background-color: #3084F2;
+    color: #fff;
+}
+.btn.update {
+    background-color: #1A1A72;
+    margin-right: 10px;
+    color: #fff;
+}
+.btn.delete {
+    background-color: #E91629;
+    color: #fff;
+}
+.btn.add {
+    width: 100%;
+    background-color: #3084F2;
+    color: #fff;
+    border: none;
+}
+.table th {
+    color: #424242;
+}
+.modal .btn.update {
+    width: 100%;
+}
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #ced4da !important;
+    margin-bottom: 15px;
+    border-radius: 5px !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: #f2f2f2 !important;
+    border: none !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #bcbcbc !important;
+    border: none !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    background-color: transparent !important;
+}
